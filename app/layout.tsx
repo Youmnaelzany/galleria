@@ -22,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${libreBaskerville.variable} antialiased`}>
+      <body
+        suppressHydrationWarning
+        className={`${libreBaskerville.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
